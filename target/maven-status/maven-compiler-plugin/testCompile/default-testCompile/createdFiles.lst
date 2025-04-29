@@ -1,0 +1,6 @@
+com/base/Baseclass.class
+com/pages/LoginPage.class
+com/tests/LoginTest.class
+com/utilities/Fakedata.class
+com/utilities/UpdateExcel.class
+com/utilities/Testdata.class
