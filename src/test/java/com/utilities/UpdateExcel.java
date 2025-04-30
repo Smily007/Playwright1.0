@@ -65,7 +65,6 @@ public class UpdateExcel {
 	public int findRowIndex(String sheetName, String testcaseId) {
 		sheet = loadWorkbook().getSheet(sheetName);
 		int columnIndex = findColumnIndex(sheetName, "Test case ID");
-		System.out.println(columnIndex);
 		for (int i = sheet.getFirstRowNum() + 1; i <= sheet.getLastRowNum(); i++) {
 			Cell cell = sheet.getRow(i).getCell(columnIndex);
 			System.out.println(cell.getStringCellValue());
